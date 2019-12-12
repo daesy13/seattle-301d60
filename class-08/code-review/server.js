@@ -31,9 +31,6 @@ function getLocation(req, res){
       'longitude': response.body.results[0].geometry.location.lng
     });
   });
-
-
-
 }
 
 function getWeather(req, res) {
